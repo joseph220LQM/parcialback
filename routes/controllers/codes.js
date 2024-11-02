@@ -1,6 +1,6 @@
-const pool  = require('../../db/mongo');
 const { ObjectId } = require('mongodb');
 const moment = require('moment-timezone');
+const pool  = require('../../db/mongo');
 
 //---------------Validar código promocional---------------------
 const validateCredentials = async (req, res) => {
